@@ -11,8 +11,8 @@ $(document).ready(function(){
         }else{
             $('.scroll-up-btn').removeClass("show");
         }
-    });
-
+    });                                              
+       
     // slide-up script
     $('.scroll-up-btn').click(function (){
         $('html').animate({scrollTop: 0});
@@ -27,14 +27,14 @@ $(document).ready(function(){
 
     // typing animation script
     var typed = new Typed(".typing", {
-        strings:["Developer", "Student", "Desiner", "Freelancer"],
+        strings:["Developer", "Desiner", "Freelancer"],
         typeSpeed:100,
         backSpace:60,
         loop: true
     });
 
     var typed = new Typed(".typing-2", {
-        strings:["Developer", "Student", "Desiner", "Freelancer"],
+        strings:["Developer",  "Desiner", "Freelancer"],
         typeSpeed:100,
         backSpace:60,
         loop: true
